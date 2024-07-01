@@ -21,7 +21,7 @@ var data_mahasiswa = []Lepkom{
 	{
 		Nama:   "Nedianti Widhiyan",
 		Kursus: "Fundamental Web",
-		Foto:   "img/gambar2.jpg",
+		Foto:   "img/gambar1.jpg",
 	},
 }
 
@@ -42,9 +42,9 @@ func user(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	port := ":8081" //diganti dengan NPM
+	port := ":8989"
+	http.Handle("/", http.FileServer(http.Dir("polymer")))
 	http.HandleFunc("/api/mahasiswa", user)
-
 	fmt.Println("web berjalan di port localhost" + port + "/api/mahasiswa")
 	http.ListenAndServe(port, nil)
 }
