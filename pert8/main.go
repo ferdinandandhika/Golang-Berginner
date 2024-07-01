@@ -15,7 +15,7 @@ type Lepkom struct {
 var data_mahasiswa = []Lepkom{
 	{
 		Nama:   "Ferdinand Andhika",
-		Kursus: "Beginner Berginner",
+		Kursus: "Golang Berginner",
 		Foto:   "img/gambar1.jpg",
 	},
 	{
