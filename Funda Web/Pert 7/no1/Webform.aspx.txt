@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href=" StyleSheet1.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="top">
+        <h1>My name is Ferdinand Andhika Widhiyan</h1>
+        <h1>My student number 50421513</h1>
+        <h1>My class is 3IA20</h1>
+    </div>
+    <div id="center">
+        <h1>My hobbies are swimming and joking</h1>
+    </div>
+    <div id="bottom">
+        <h1>My favorite music title is Helena - My Chemical Romance</h1>
+    </div>
+    </form>
+</body>
+</html>

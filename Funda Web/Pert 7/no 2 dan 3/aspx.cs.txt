@@ -1,0 +1,11 @@
+protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!IsPostBack)
+            {
+                Label1.Text = "Ini adalah halaman awal";
+            }
+            else
+            {
+                Label1.Text = "Ini adalah halaman postback";
+            }
+        }

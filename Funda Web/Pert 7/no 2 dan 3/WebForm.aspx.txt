@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+ 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="StyleSheet2.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="belakang">
+    </div>
+    <form id="form1" runat="server">
+        <div id="atas">
+             <asp:Label ID="Label1" runat="server" Text="Label1" ForeColor="#543310"></asp:Label>
+            <div id="tengah">
+                <p>
+                 <asp:Button ID="Button1" runat="server" Height="25px" style="margin-top: 0px" Text="Klik" ForeColor="#543310" Backcolor="#F8F4E1"/>
+                    </p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
